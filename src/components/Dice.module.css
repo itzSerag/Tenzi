@@ -1,0 +1,32 @@
+:global {
+    body {
+        background-color: #f0f0f0;
+    }
+
+    h1 {
+        color: #3498db;
+    }
+}
+
+.dice {
+    width: 80px;
+    height: 80px;
+    margin-top: 5%;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: flex;
+    border-radius: 8px;
+    border-color: #f0f0f0;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+
+.selected_dice {
+    background-color: green;
+    color: white;
+    /* Optional: Change text color for better contrast */
+}

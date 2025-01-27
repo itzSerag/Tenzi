@@ -1,0 +1,43 @@
+main {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(238, 235, 235, 0.604) 0px 2px 8px 0px;
+    /* box-sizing: border-box; */
+}
+
+.main_dices {
+
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+}
+
+.main_h1 {
+    font-size: 3rem;
+    /* Add margin to separate from other content */
+    margin-bottom: 1rem;
+}
+
+.main_dice_button {
+
+    background: rgb(0, 0, 0);
+    border: 1px solid green;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    outline: 0;
+    padding: 8px;
+    margin-top: 3%;
+}
